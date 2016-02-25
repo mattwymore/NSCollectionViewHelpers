@@ -25,7 +25,7 @@ typedef NS_ENUM(NSInteger, SWColumnEdge) {
 };
 
 @interface SWCollectionViewStaggeredGridLayoutColumnItemInfo : NSObject
-    @property (nonatomic, assign) NSIndexPath *indexPath;
+    @property (nonatomic, strong) NSIndexPath *indexPath;
     @property (nonatomic, assign) CGPoint origin;
     @property (nonatomic, assign) CGSize size;
 @end
